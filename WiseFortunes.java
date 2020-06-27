@@ -21,6 +21,7 @@ public class WiseFortunes implements FortuneTeller {
             FileReader fileReader = new FileReader("src/com/practiceActivity/fortunes");
             BufferedReader bf = new BufferedReader(fileReader);
             while ((word = bf.readLine()) != null) {
+                //put the file in the arraylist
                 listOfFortunes.add(word);
             }
 
